@@ -24,6 +24,6 @@ class MyShapes {
         System.out.println("Sus perímetros son:");
 
         for (IShape shape : shapes)
-            System.out.printf("  %1$.4f\n", shape.computePerimeter());
+            System.out.printf("  %1$.3f\n", shape.computePerimeter());
     }
 }
